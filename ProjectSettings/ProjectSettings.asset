@@ -3,7 +3,7 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 14
+  serializedVersion: 15
   productGUID: 48e285f73a81b654c8b7c01a748a258d
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
@@ -17,7 +17,7 @@ PlayerSettings:
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
-  m_ShowUnitySplashLogo: 0
+  m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
   m_SplashScreenLogoStyle: 1
@@ -52,8 +52,8 @@ PlayerSettings:
   iosShowActivityIndicatorOnLoading: -1
   androidShowActivityIndicatorOnLoading: -1
   tizenShowActivityIndicatorOnLoading: -1
-  iosAppInBackgroundBehavior: 0
   displayResolutionDialog: 2
+  iosAppInBackgroundBehavior: 0
   iosAllowHTTPDownload: 1
   allowedAutorotateToPortrait: 1
   allowedAutorotateToPortraitUpsideDown: 1
@@ -150,6 +150,7 @@ PlayerSettings:
     oculus:
       sharedDepthBuffer: 0
       dashSupport: 0
+      v2Signing: 0
   protectGraphicsMemory: 0
   useHDRDisplay: 0
   m_ColorGamuts: 00000000
@@ -245,7 +246,7 @@ PlayerSettings:
   tvOSManualSigningProvisioningProfileID: 
   appleEnableAutomaticSigning: 0
   clonedFromGUID: 00000000000000000000000000000000
-  AndroidTargetDevice: 0
+  AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: 
@@ -535,6 +536,7 @@ PlayerSettings:
   switchRatingsInt_9: 0
   switchRatingsInt_10: 0
   switchRatingsInt_11: 0
+  switchRatingsInt_12: 0
   switchLocalCommunicationIds_0: 
   switchLocalCommunicationIds_1: 
   switchLocalCommunicationIds_2: 
@@ -707,28 +709,28 @@ PlayerSettings:
   webGLUseWasm: 0
   webGLCompressionFormat: 1
   scriptingDefineSymbols:
-    1: TextMeshPro;STEAM;PC_STRINGS;UNITY_POST_PROCESSING_STACK_V2;PROBUILDER_FBX_ENABLED;CURVE_FINAL;WORKSHOP
+    1: TextMeshPro;STEAM;PC_STRINGS;UNITY_POST_PROCESSING_STACK_V2;CURVE_FINAL;WORKSHOP
     2: TextMeshPro
-    4: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2;PROBUILDER_FBX_ENABLED
+    4: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
     5: TextMeshPro
     6: TextMeshPro
-    7: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2;PROBUILDER_FBX_ENABLED
+    7: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
     9: TextMeshPro
-    13: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2;PROBUILDER_FBX_ENABLED
+    13: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
     14: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
     15: TextMeshPro
     16: TextMeshPro
-    17: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2;PROBUILDER_FBX_ENABLED
-    18: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2;PROBUILDER_FBX_ENABLED
-    19: TextMeshPro;DISABLESTEAMWORKS;UNITY_POST_PROCESSING_STACK_V2;COMPILE_SUPS;DISABLE_VC_LOGS;CURVE_EUR;CURVE_RELEASE_NO_OPT;CURVE_RELEASE;CURVE_CHEATS;PROBUILDER_FBX_ENABLED
-    20: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2;PROBUILDER_FBX_ENABLED
-    21: TextMeshPro;DISABLESTEAMWORKS;CONSOLE_STEAMWORKS;UNITY_POST_PROCESSING_STACK_V2;CURVE_RELEASE;CURVE_CHEATS;CURVE_EUR;PROBUILDER_FBX_ENABLED
+    17: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
+    18: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
+    19: TextMeshPro;DISABLESTEAMWORKS;UNITY_POST_PROCESSING_STACK_V2;COMPILE_SUPS;DISABLE_VC_LOGS;CURVE_EUR;CURVE_RELEASE_NO_OPT;CURVE_RELEASE;CURVE_CHEATS
+    20: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
+    21: TextMeshPro;DISABLESTEAMWORKS;CONSOLE_STEAMWORKS;UNITY_POST_PROCESSING_STACK_V2;CURVE_RELEASE;CURVE_CHEATS;CURVE_EUR
     22: TextMeshPro
-    23: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2;PROBUILDER_FBX_ENABLED
-    24: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2;PROBUILDER_FBX_ENABLED
-    25: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2;PROBUILDER_FBX_ENABLED
-    26: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2;PROBUILDER_FBX_ENABLED
-    27: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2;DISABLESTEAMWORKS;NO_MOVIETEXTURE;NO_WEBCAMTEXTURE;CONSOLE_STEAMWORKS;SUMO_ASSET_BUNDLES;PROBUILDER_FBX_ENABLED
+    23: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
+    24: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
+    25: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
+    26: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2
+    27: TextMeshPro;UNITY_POST_PROCESSING_STACK_V2;DISABLESTEAMWORKS;NO_MOVIETEXTURE;NO_WEBCAMTEXTURE;CONSOLE_STEAMWORKS;SUMO_ASSET_BUNDLES
   platformArchitecture:
     iOS: 2
   scriptingBackend:
